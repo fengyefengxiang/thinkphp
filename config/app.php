@@ -95,7 +95,7 @@ return [
     // URL参数方式 0 按名称成对解析 1 按顺序解析
     'url_param_type'         => 0,
     // 是否开启路由延迟解析
-    'url_lazy_route'         => false,
+    'url_lazy_route'         => true,
     // 是否强制使用路由
     'url_route_must'         => false,
     // 合并路由规则
@@ -105,7 +105,7 @@ return [
     // 使用注解路由
     'route_annotation'       => false,
     // 域名根，如thinkphp.cn
-    'url_domain_root'        => '',
+    'url_domain_root'        => 'think.com',
     // 是否自动转换URL中的控制器和操作名
     'url_convert'            => true,
     // 默认的访问控制器层
